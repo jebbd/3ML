@@ -4,12 +4,12 @@
 #                                                              #
 ################################################################
  
- ## 3ML is currently only able to handle paired end reads
+  3ML is currently only able to handle paired end reads
  
- # Dependencies - GNU Parallel v 20160422 or higher 
- #               BWA version supporting the mem algorithm
+  Dependencies - GNU Parallel v 20160422 or higher 
+                 BWA version supporting the mem algorithm
  
- ## USAGE: ./3ML.sh -f [REFERENCE in fasta] [OPTIONAL FLAGS]
+  USAGE: ./3ML.sh -f [REFERENCE in fasta] [OPTIONAL FLAGS]
  
  Required Flags:                                              
    -f : Reference Sequence in fasta format                
@@ -53,7 +53,9 @@ http://ftp.gnu.org/gnu/parallel/parallel-20170222.tar.bz2
 
 Bug reports and any questions are welcome
 David
+
 david.jebb@ucdconnect.ie
+
 Laboratory of Molecular Evolution and Mammalian Phylogenetics                                 
 University College Dublin                                                                                       
 Ireland
