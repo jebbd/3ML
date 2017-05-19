@@ -45,7 +45,7 @@ http://ftp.gnu.org/gnu/parallel/parallel-20170222.tar.bz2
 
 Bug reports and any questions are welcome,  
 David  
-Labratory of Molecular Evolution and Phylogenetics  
+Laboratory of Molecular Evolution and Phylogenetics  
 University College Dublin  
 Ireland
 
