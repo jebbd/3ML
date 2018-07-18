@@ -108,7 +108,7 @@ local maf=$1
 local ref=$2
 local for=$3
 local rev=$4
-sample=`echo $for | perl -ne '/[A-Za-z0-9_\/]+/;print $&'`
+sample=`echo $for | perl -ne '/.?[A-Za-z0-9_\/]+/;print $&'`
 	bwa mem $ref $for $rev > $sample.sam
 	java -jar dep/SortSam.jar INPUT= $sample.sam OUTPUT= $sample.sorted.sam SORT_ORDER=coordinate
 	java -jar dep/AddOrReplaceReadGroups.jar INPUT= $sample.sorted.sam OUTPUT= $sample.headers.sam RGSM=$sample RGLB=library RGPL=illumina RGPU=mito
@@ -129,7 +129,7 @@ local maf=$1
 local ref=$2
 local for=$3
 local rev=$4
-sample=`echo $for | perl -ne '/[A-Za-z0-9_\/]+/;print $&'`
+sample=`echo $for | perl -ne '/.?[A-Za-z0-9_\/]+/;print $&'`
 	bwa mem $ref $for $rev > $sample.sam
 	java -jar dep/SortSam.jar INPUT= $sample.sam OUTPUT= $sample.sorted.sam SORT_ORDER=coordinate
 	java -jar dep/AddOrReplaceReadGroups.jar INPUT= $sample.sorted.sam OUTPUT= $sample.headers.sam RGSM=$sample RGLB=library RGPL=illumina RGPU=mito
