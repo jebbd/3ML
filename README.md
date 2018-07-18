@@ -32,7 +32,7 @@ Additional Flags:
 ### CITATION		
 If you use 3ML please cite...		
 
-"Jebb D. et al (2017) Dynamic heteroplasmy revealed by targeted, deep sequencing in a population of the long-lived Greater mouse-eared bats, Myotis myotis. (In Press)"
+"Jebb D. et al (2017) Population level mitogenomics of long-lived bats reveals dynamic heteroplasmy and challenges the Free Radical Theory of Ageing. (bioArxiv)" https://www.biorxiv.org/content/early/2017/11/24/224592
 
 ### 3ML is a wrapper script used to call and annotate heteroplasmic variants in mammalian mitogenomes
 
