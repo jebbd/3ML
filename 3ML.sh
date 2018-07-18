@@ -162,7 +162,7 @@ if [ $anno != "" ];then
 files=($path/*final.csv)
 for f in ${files[@]}
 do
-name=`echo $f | perl -ne '/[A-Za-z0-9_\/]+/;print $&'`
+name=`echo $f | perl -ne '/.?[A-Za-z0-9_\/]+/;print $&'`
 perl bin/mito_anno.pl $ref $anno $name.final.csv > $name.annotated.csv
 done
 else
